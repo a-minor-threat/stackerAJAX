@@ -12,7 +12,9 @@ a {
 a:hover {
 	color: rgba(255,154,65,0.6);
 }
-
+.explanation {
+	text-align: center;
+}
 .background {
 	background: 
 	-webkit-background-size: cover;
