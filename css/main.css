@@ -9,6 +9,13 @@ a {
 	font-style: italic;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 a:hover {
 	color: rgba(255,154,65,0.6);
 }
@@ -127,14 +134,14 @@ input[type="text"] {
   	border: solid 5px gray;
   	transition: border 0.3s;
 }
-
+/*
 input[type="text"]:focus {
 
 	font-size: 1rem;
 	color: #505050;
   	border: solid 5px gray;
 }
-
+*/
 input[type="submit"] {
 
 	letter-spacing: 0.3rem;
